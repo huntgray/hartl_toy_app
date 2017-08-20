@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   root 'application#toy_app'
 
+  get 'index', to: 'application#toy_app'
+
 end
