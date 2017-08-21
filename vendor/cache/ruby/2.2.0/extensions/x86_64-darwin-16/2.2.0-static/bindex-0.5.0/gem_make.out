@@ -1,0 +1,12 @@
+/Users/bgray/.rvm/rubies/ruby-2.2.5/bin/ruby -r ./siteconf20170821-91565-127tpba.rb extconf.rb
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.bundle
+ld: warning: directory not found for option '-L/Users/kuczynsk/.sm/pkg/active/lib'
+
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.bundle ./.gem.20170821-91565-omdek1/bindex
