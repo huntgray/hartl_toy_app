@@ -10,7 +10,7 @@
   <%= @user.email %>
 </p>
 
-<% if @user.microposts %>
+<% if @user.microposts.exists? %>
 <p>
   <strong>First Micropost:</strong>
   <%= @user.microposts.first.context %>
